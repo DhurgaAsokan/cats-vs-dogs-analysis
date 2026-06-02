@@ -1,0 +1,5 @@
+cat_count = 0
+dog_count = 0
+
+cat_images = []
+dog_images = []
