@@ -1,0 +1,7 @@
+plt.bar(["Cats", "Dogs"], [cat_count, dog_count])
+plt.title("Cats vs Dogs Dataset")
+plt.show()
+plt.pie([cat_count, dog_count],
+        labels=["Cats", "Dogs"],
+        autopct='%1.1f%%')
+plt.show()
