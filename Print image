@@ -1,0 +1,8 @@
+print("Number of Cat Images:", cat_count)
+print("Number of Dog Images:", dog_count)img = Image.open(cat_images[0])
+plt.imshow(img)
+plt.axis("off")
+plt.show()img = Image.open(dog_images[0])
+plt.imshow(img)
+plt.axis("off")
+plt.show()
