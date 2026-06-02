@@ -1,0 +1,12 @@
+for root, dirs, files in os.walk("dataset"):
+    for file in files:
+        if file.lower().endswith(('.jpg', '.jpeg', '.png')):
+            full_path = os.path.join(root, file)
+
+            if "cat" in file.lower():
+                cat_count += 1
+                cat_images.append(full_path)
+
+            elif "dog" in file.lower():
+                dog_count += 1
+                dog_images.append(full_path)
